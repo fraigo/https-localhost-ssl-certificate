@@ -1,0 +1,14 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C=CA
+ST=BritishColumbia
+L=Vancouver
+O=LocalHost
+OU=Dev
+emailAddress=root@localhost
+CN=localhost
